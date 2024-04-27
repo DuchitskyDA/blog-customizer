@@ -1,5 +1,5 @@
-import { useState, useRef } from 'react';
 import type { MouseEventHandler } from 'react';
+import { useRef, useState } from 'react';
 import clsx from 'clsx';
 import { OptionType } from 'src/constants/articleProps';
 import { Text } from 'components/text';
