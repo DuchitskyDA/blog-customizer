@@ -26,6 +26,7 @@ export const RadioGroup = (props: RadioGroupProps) => {
 					</Text>
 				</>
 			)}
+
 			<div className={styles.group}>
 				{options.map((option) => (
 					<Option
